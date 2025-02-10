@@ -5,7 +5,6 @@ function Navbar() {
   return (
     <div className="flex justify-evenly text-white bg-black h-[100px]">
       <ul className="hidden md:flex text-lg justify-evenly w-full max-w-4xl">
-        
         <li className="mx-[25px] cursor-pointer flex items-center justify-center">
           <Link to="/home" className="flex items-center space-x-2 hover:text-gray-300">
             <i className="fas fa-home"></i>
