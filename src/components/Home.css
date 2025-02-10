@@ -1,0 +1,12 @@
+.animated-bg {
+  animation: slide 2s infinite alternate;
+}
+
+@keyframes slide {
+  0% {
+    background-position: center top;
+  }
+  100% {
+    background-position: center bottom;
+  }
+}
