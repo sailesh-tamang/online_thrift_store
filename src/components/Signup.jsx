@@ -38,7 +38,7 @@ const Signup = () => {
 
   return (
     <div
-      className="h-screen bg-cover bg-center flex flex-col justify-center items-center"
+      className="backgroundimage h-screen bg-cover bg-center flex flex-col justify-center items-center"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <div className="bg-white p-8 rounded-lg shadow-lg w-96">

@@ -5,6 +5,7 @@ import Login from "./components/Login"
 import Signup from "./components/Signup"
 import Navbar from "./components/Navbar"
 import ShopNow from "./components/ShopNow"
+import Cart from "./components/Cart"
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/login" element={<Login/>}/>
           <Route path="/signup" element={<Signup/>}/>
           <Route path="/shopnow" element={<ShopNow/>}/>
+          <Route path="/cart" element={<Cart/>}/>
           
       </Routes>
     </BrowserRouter>

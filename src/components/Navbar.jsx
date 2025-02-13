@@ -22,6 +22,11 @@ function Navbar() {
             <i className="fas fa-shopping-cart"></i>
             <span>ShopNow</span>
           </Link>
+          <span className="mx-6"></span> 
+          <Link to="/cart" className="flex items-center space-x-2 hover:text-gray-300">
+            <i className="fas fa-cart-plus"></i> {/* Updated icon for Add to Cart */}
+            <span>Cart</span>
+          </Link>
         </li>
         <li className="mx-[25px] cursor-pointer flex items-center justify-center">
           <Link to="/login" className="flex items-center space-x-2 hover:text-gray-300">
